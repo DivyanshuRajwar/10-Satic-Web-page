@@ -145,3 +145,96 @@ font-weight: 300;
 line-height: normal;
 margin-top: 15px;
 }
+#box3{
+    width: 100vw;
+    height: 378px;
+    background-color: peachpuff;
+    display: flex;
+}
+#contact{
+    width: 50%;
+    height: 378px;
+    background-color: #515603;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+#contact h1{
+    margin-top: 25px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+#contact p{
+    margin-top: 25px;
+    width: 499px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 164.286% */
+    
+
+}
+#contact span{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#about{
+    width: 50%;
+    height: 378px;
+    background-color:#722300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#about h1{
+    margin-top: 25px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+#about p{
+    margin-top: 25px;
+    width: 499px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 164.286% */
+    
+
+}
+#about span{
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#box4{
+    width: 100vw;
+    height: 138px;
+    background-color: black;
+    color:#FFF;
+    font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
