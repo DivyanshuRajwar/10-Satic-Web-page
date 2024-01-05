@@ -1,1 +1,2 @@
-# 10 days 10 Static web page
+# This is my first Static web page
+this is a tribute web page .
