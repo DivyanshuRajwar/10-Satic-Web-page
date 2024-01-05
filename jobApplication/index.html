@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Job application (WEB)</h1>
+       
+        <div id="Fname">
+            <label for="f_name">First Name</label>
+            <br>
+            <input type="text" name="f_name" id="" placeholder="Enter First Name.....">
+        </div>
+        <div id="Lname">
+            <label for="l_name">Last Name</label>
+            <br>
+            <input type="text" name="l_name" id="" placeholder="Enter Last Name.....">
+        </div>
+        <div id="email">
+            <label for="email">Email</label>
+            <br>
+            <input type="text" name="email" id="" placeholder="Enter Email.....">
+        </div>
+        <div id="jobRole">
+            <label for="job">Job Role</label>
+            <br>
+            <select id="myDropdown">
+                <option value="option1">Frontend developer </option>
+                <option value="option2">Backend developer</option>
+                <option value="option3">Data scientiest</option>
+                <option value="option4">Senior SE</option>
+              </select>
+        </div>
+        <div id="add">
+        <label for="address">Enter Address</label>
+        <textarea rows="5" cols="60">
+            
+          </textarea>
+    </div>
+        <div id="city">
+            <label for="city">City</label>
+            <br>
+            <input type="text" name="city" id="" placeholder="Enter City.....">
+        </div>
+        <div id="pinc">
+            <label for="pinc">Pincode</label>
+            <br>
+            <input type="number" name="pinc" id="" placeholder="Enter pincode.....">
+        </div>
+        <div id="date">
+            <label for="Date">Start Date</label>
+            <br>
+            <input type="date" name="date" >
+        </div>
+        <div id="cv">
+            <label for="">upload your CV</label>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="fileToUpload" id="fileToUpload">
+              </form>
+        </div>
+        <div id="btn">
+            <button class="c_btn">
+                Click Me
+            </button>
+            <a href="https://www.google.com" class="c_btn"></a>
+        </div>
+
+    </div>
+</body>
+</html>

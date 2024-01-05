@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: grey
+}
+.container{
+    background-color: white;
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "hd hd"
+    "row2col2 row2col1"
+    "row3col1 row3col2"
+    "row4 row4"
+    "row5col1 row5col2"
+    "row6col1 row6col2"
+    "row7col1 row7col2"
+    "row8 row8";
+}
+/* .container #heading{
+    flood-color: blueviolet;
+} */
+label{
+    font-size:20px;
+    font-weight: bold;
+}
+input{
+    height: 1.5rem;
+    width: 15rem;
+    border-radius: 5px;
+}
+input::placeholder{
+    font-size: 1rem;
+}
+#heading{
+    grid-area: hd;
+   
+}
+#Lname{
+    grid-area: row2col1;
+}
+#Fname{
+    grid-area: row2col2;
+
+}
+#email{
+    grid-area: row3col1;
+}
+#jobRole{
+    grid-area: row3col2;
+}
+#add{
+    grid-area: row4;
+}
+#city{
+    grid-area: row5col1;
+}
+#pinc{
+    grid-area: row5col2;
+}
+#date{
+    grid-row: row6col1;
+}
+#cv{
+    grid-area: row6col2;
+}
+#btn{
+    grid-area: row7;
+}
+.c_btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
