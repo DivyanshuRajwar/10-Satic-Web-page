@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    height: 600px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* display: block; */
+    margin: auto;
+    border-radius: 15px;
+}
+#img1{
+    box-shadow: 10px 10px 20px blue ,-10px -10px 20px blue ;
+    
+}
+#img2{
+    filter: drop-shadow(10px 10pc 20px);
+}
