@@ -129,3 +129,45 @@ height: 35px;
     background: #FFC066;
     color:#FFF;
 }
+#hero_ftr{
+    width: 878px;
+    height: 109px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_banner{
+    width: 878px;
+    height: 109px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#ftr_img{
+    width: 80px;
+    height: 83px;
+}
+#ftr_content{
+    width: 170px;
+
+}
+#ftr_content h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0.54px;
+}
+#ftr_content p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px; /* 135.714% */
+letter-spacing: 0.42px;
+}
