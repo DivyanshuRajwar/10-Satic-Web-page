@@ -3,30 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
-   
-   
-}
-.container{
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 1080px;
-    height: 800px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    border: 10px solid orange;
-    box-shadow: 10px 10px 20px rgba(0, 0, 255, 0.509),-10px -10px 20px rgba(0, 0, 255, 0.485);
-    border-radius: 20px;
+    background-color: rgba(196, 186, 186, 0.66);
 }
 img{
-    width: 250px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 30px;
 }
-
 #img1{
     box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.823);
 }
-#img2{.
-    filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.648) );
+#img2{
+    filter: drop-shadow(20px 20px 30px  black );
 }
