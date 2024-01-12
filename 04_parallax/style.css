@@ -7,19 +7,10 @@ html,body{
     font-family: "Lato", sans-serif;
     overflow-x: hidden;
 }
-/* .container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-} */
-
 #box1{
     width: 100vw;
     height: 100vh;
     background-image: url("main_img.jpg");
-
-    /* perspective: 100px; */
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -29,12 +20,15 @@ html,body{
 }
 #box1 h1{
     color:rgba(247, 236, 229, 1);
-    font-size: 85px;
+    font-size: 70px;
     background-color: #2e0f1486;
     border-radius: 35px;
     width: 525px;
     height: 126px;
     padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #box2_container{
     height: 350px;
@@ -152,6 +146,7 @@ html,body{
     width: 100vw;
     height: 800px;
     background-image: url(fourth_img.jpg);
+    
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
