@@ -121,13 +121,16 @@ height: 35px;
     font-weight: 500;
     line-height: 19px; 
 }
-#btn{
-}
+
 #btn button{
     width: 174px;
     height: 57px;
     background: #FFC066;
     color:#FFF;
+    border-radius: 10px;
+}
+#btn button:hover{
+    font-size: 20px;
 }
 #hero_ftr{
     width: 878px;
@@ -170,4 +173,15 @@ height: 35px;
     font-weight: 300;
     line-height: 19px; /* 135.714% */
 letter-spacing: 0.42px;
+}
+.content_box{
+    width: 1080px;
+    margin: 0 auto;
+}
+#menu_box{
+    width: 100%;
+    height: 100px;
+    background-color: peru;
+    display: flex;
+    
 }
