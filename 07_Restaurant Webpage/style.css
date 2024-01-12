@@ -11,15 +11,19 @@ html,body{
 .top_container{
     margin: 0 auto;
     width: 1440px;
-    height: 2483px;
+    height: 1800px;
+    margin-top: 100px;
 }
 #top{
     margin: 0 auto;
-    width: 1220px;
+    width: 100vw;
     height: 76px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background: #fff;
+    z-index: 100;
+    position: fixed;
 }
 #logo{
     width: 201px;
@@ -49,6 +53,7 @@ html,body{
     height: 32px;
 }
 #hero{
+  
     height: 520px;
     width: 100%;
     display: flex;
@@ -128,6 +133,7 @@ height: 35px;
     background: #FFC066;
     color:#FFF;
     border-radius: 10px;
+    transition: all 1s ease-out;
 }
 #btn button:hover{
     font-size: 20px;
@@ -172,16 +178,147 @@ height: 35px;
     font-style: normal;
     font-weight: 300;
     line-height: 19px; /* 135.714% */
-letter-spacing: 0.42px;
+    letter-spacing: 0.42px;
 }
 .content_box{
-    width: 1080px;
-    margin: 0 auto;
+    width: 100vw;
+    height: 50%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 #menu_box{
     width: 100%;
-    height: 100px;
-    background-color: peru;
+    height: 150px;
     display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    gap: 20px;
     
+}
+#menu_box button{
+    width: 137px;
+    height: 43px;
+    color: #FFF;
+    background: #149F39;
+    transition: all 1s ease-out;
+}
+
+#menu_box  button:hover{
+    font-size: 20px;
+}
+#menu_box h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#photo{
+    width: 65%;
+    position: relative;
+    top: 50px;
+    margin:0 auto ;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "i1 i1 i2 i3"
+    "i1 i1 i2 i7"
+    "i4 i5 i6 i7";
+}
+.img_ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img_:hover{
+    z-index: 101;
+}
+.effect {
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 15px;
+    filter: grayscale(1);
+    transition: scale 750ms ease-out,filter 250ms ease-in-out;
+    width: 80%;
+}
+.effect:hover{
+ 
+    cursor: pointer;
+    filter: grayscale(0);
+    scale: 1.1;
+}
+
+#img1{
+    grid-area: i1;
+}
+
+
+#img2{
+    grid-area: i2;
+}
+#img3{
+    grid-area: i3;
+}
+#img4{
+    grid-area: i4;
+}
+#img5{
+    grid-area: i5;
+}
+#img6{
+    grid-area: i6;
+}
+#img7{
+    grid-area: i7;
+}
+
+#footer{
+    width: 100%;
+    height: 250px;
+    background: #FFF0DB;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ftr_heading{
+    text-decoration: none;
+    color: #565656;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19px;
+}
+.list li{
+   list-style: none;
+    margin-top: 10px;
+   color: #000;
+   font-family: Roboto;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 19px; /* 135.714% */
+}
+
+#support{
+    margin-top: -35px;
+}
+#joinUs{
+    /* margin-top: -35px; */
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+}
+#joinUs input{
+    width: 265px;
+    height: 24px;
+}
+#ftr_logo{
+    display: flex;
+    gap: 15px;
+}
+.logo2{
+    margin-top: -65px;
 }
