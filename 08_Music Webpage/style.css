@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+#navigation_bar{
+    width: 99%;
+    height: 55px;
+    background: #270082;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+#logo h1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px; /* 120.833% */
+}
+#menu ul{
+    list-style: none;
+    display: flex;
+}
+#menu ul li{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    margin-left: 30px;
+}
+#menu li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hero_container{
+    margin-top: 55px;
+    width: 100vw;
+    height: 92%;
+    background-image: url(hero.png);
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content_box{
+    width: 841px;
+    height: 243px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+#content_box h1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#content_box span{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#content_box p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 161.111% */
+}
+.hero2{
+    width: 100%;
+    height: 806px;
+    display: flex;
+    justify-content: center;
+    background: #281154;;
+}
+#content2{
+    /* margin-top: 47px; */
+    position: relative;
+    top: 47px;
+    width: 970px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+
+}
+#logo_box{
+    width: 159px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#logo_box h2{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+}
+#hero2_logo span{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    margin-left: -55px;
+}
+#hero2_content{
+    height: 50%;
+    width: 970px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+}
+#hero2_content p{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px; /* 161.111% */
+}
+#hero2_content button{
+    display: block;
+    width: 183px;
+    height: 55px;
+    background: #DC0000;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px; 
+}
+#hero2_content{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px; /* 207.143% */
+}
