@@ -12,6 +12,7 @@ html,body{
     width: 99%;
     height: 55px;
     background: #270082;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
