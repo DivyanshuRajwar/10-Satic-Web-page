@@ -207,23 +207,189 @@ height: 800px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-#hero_first_content{
+.hero_first_content{
     width: 636px;
     height: 382px;
     background-image: url(torii-forest-illustration\ 1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.8;
-
 }
-#history{
+#hero_first_wrapper{
+    width: 471px;
+    height: 185px;
     display: flex;
-    height: 25px;
-    width: 104px;
+    flex-direction: column;
+    gap: 15px;
+}
+#blur{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#history_wrapper{
+    width: 194px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.span_same{
+    color: var(----c-black-30, #4B4B4B);
+    font-family: Poppins;
+    font-size: 17.133px;
+    font-style: normal;
+    font-weight: 500;
+}
+#hero_first_heading {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#hero_first_heading h2{
+    color: #313131;
+    font-family: Poppins;
+    font-size: 25.699px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+#hero_first_heading p{
+    color: var(----c-black-20, #6E6E6E);
+    font-family: Poppins;
+    font-size: 19.988px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29.982px; /* 150% */
+}
+#hero_first_fotter{
+    display: flex;
+    justify-content: space-between;
     
 }
-hero_first_content 
-.hero_first_content span{
+#read_full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+#hero_photo_second{
+    width: 636px;
+    height: 382px;
+    background-image: url(Rectangle\ 42.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero_section_second{
+    width: 1272px;
+    height: 440px;
+    margin: 0 auto;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#left_right{
+    width: 81.32px;
+    height: 30.803px;
+    position: absolute;
+    right: 80px;
+    /* top: 0; */
+}
+#second_secion_card{
+    margin-top: 37px;
+    width: 1208px;
+    height: 440px;
+    display: flex;
+    gap: 109px;
+    
+}
+.card{
+    width: 330px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card_img{
+    width: 329px;
+    height: 254px;
+    border-radius: 5px;
+    background-image: url(Rectangle\ 33.png);
+}
+#hero_second_wrapper{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card_img_2{
+    width: 329px;
+    height: 254px;
+    border-radius: 5px;
+    background-image: url(Rectangle\ 33\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+.card_img_3{
+    width: 329px;
+    height: 254px;
+    border-radius: 5px;
+    background-image: url(Rectangle\ 33\ \(2\).png);
+}
+.footer{
+    width: 100vw;
+    height: 400px;
+    margin-top: 300px;
+    background: var(--button--color, linear-gradient(95deg, #313131 0%, #000 101.64%));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#ftr_content{
+    width: 519px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30%;
+}
+#ftr_content h2{
+    color: #000;
+    font-family: Nosifer;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17.161px; /* 42.903% */
+    letter-spacing: 0.306px;
+}
+#ftr_para{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.935px; /* 237.097% */
+    letter-spacing: 0.677px;
+}
+#ftr_search{
+    margin-top: -300px;
+}
+#intro{
+    position: relative;
+    top: 280px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37.935px; /* 237.097% */
+    letter-spacing: 0.677px;
 
 }
